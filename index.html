@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Adnan</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Adnan</span><br> BBA Student</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a target="_blank" href="https://www.linkedin.com/in/md-adnan-323aaa215/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a target="_blank" href="https://github.com/Adnan1132" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#0F62FE" d="M57.5,-57.2C69.8,-45.2,71.8,-22.6,70.7,-1.1C69.6,20.4,65.4,40.8,53.1,52.9C40.8,65,20.4,68.8,-0.1,68.9C-20.7,69.1,-41.4,65.6,-52.4,53.5C-63.4,41.4,-64.6,20.7,-64.9,-0.2C-65.1,-21.2,-64.3,-42.3,-53.3,-54.2C-42.3,-66.1,-21.2,-68.8,0.7,-69.6C22.6,-70.3,45.2,-69.1,57.5,-57.2Z" transform="translate(100 100)" />
+                          </svg>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="about.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="about.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Adnan</h2>
+                        <p class="about__text">Hi, I'm Adnan, currently pursuing a BBA in Digital Business and Entrepreneurship from IIM Bangalore. I'm passionate about innovation, startups, and exploring how digital transformation can drive business growth. I'm excited to keep learning, growing, and contributing to impactful ventures in the future.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+<section class="section" id="education" style="padding: 2rem 0; text-align: center;">
+    <h2 class="section-title" style="font-size: 2rem; margin-bottom: 1.5rem;">Education</h2>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1000px; margin: auto;">
+        
+        <div style="background-color: #f2f2f2; padding: 1.5rem; border-radius: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">BBA in Digital Business and Entrepreneurship</h3>
+            <p style="margin: 0;">Indian Institute of Management, Bangalore</p>
+            <p style="margin: 0.5rem 0 0; font-size: 0.9rem; color: #555;">2024 - Present</p>
+        </div>
+        
+        <div style="background-color: #f2f2f2; padding: 1.5rem; border-radius: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">Intermediate (Class 12)</h3>
+            <p style="margin: 0;">DAV Kapil Dev School</p>
+            <p style="margin: 0;">Percentage: 69%</p>
+            <p style="margin: 0.5rem 0 0; font-size: 0.9rem; color: #555;">2020 - 2022</p>
+        </div>
+        
+        <div style="background-color: #f2f2f2; padding: 1.5rem; border-radius: 1rem;">
+            <h3 style="margin-bottom: 0.5rem;">Schooling </h3>
+            <p style="margin: 0;">DAV Public School, Khunti</p>
+            <p style="margin: 0;">Percentage: 84%</p>
+            <p style="margin: 0.5rem 0 0; font-size: 0.9rem; color: #555;">2008 - 2020</p>
+        </div>
+        
+    </div>
+</section>
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__title">Adnan</p>
+            <div class="footer__social">
+                
+            </div>
+            <p class="footer__copy">&#169; Adnan. All rigths reserved</p>
+        </footer>
+    </body>
+</html>
